@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Shadows+Into+Light&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(228, 203, 167);
+    width: 100%;
+    }
+    a{
+        text-decoration: none;
+    }
+header ul
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+   
+    header ul li{
+        margin: 10px;
+}
+img{
+    width: 150px;
+}
+h1{
+    font-size: 40%;
+    color: rgb(16, 15, 13);
+}
+p{
+    font-size: 20px;
+    font-family: "Kalam", cursive;
+    }
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion h1{
+    font-size: 60px;
+    color: rgb(2, 2, 2);
+    flex-direction: row;
+}
+.presentacion p{
+    font-size: 30px;
+    padding: 20px;
+}
+.talleres {
+    width: 100%;
+    font-size: 35px;
+    padding: 10px;
+}
+.talleres iframe{
+    width: 20%;
+font-size: 30%;
+padding: 30px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(130, 192, 243);
+}
+.caja{
+    width: 10%;
+    height: 10%;
+    padding: 10%;
+    margin: 10px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img{
+    border-radius: 30%;
+}
+.caja p{
+font-size: 29px;
+}
+div{
+    background-image: url(imagenes/fondo\ jepg.jpg) ;
+    background-position: right top;
+    background-attachment: fixed;
+    flex-direction: row;
+}
+.side{
+    margin:10px 0 10px 0;
+}
+.side image{
+    height: 20vh;
+}
